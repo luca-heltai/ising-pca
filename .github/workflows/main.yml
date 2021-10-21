@@ -27,6 +27,8 @@ jobs:
 
       - name: Check pytest tests
         run: |
-          brew install eigen
+          cd ./include
+          sudo ln -sf eigen/Eigen Eigen
+          sudo ln -sf eigen/unsupported unsupported
           pip3 install pybind11
           make
