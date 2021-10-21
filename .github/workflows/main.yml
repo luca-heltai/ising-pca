@@ -27,4 +27,5 @@ jobs:
 
       - name: Check pytest tests
         run: |
+          pip3 install pybind11
           make
