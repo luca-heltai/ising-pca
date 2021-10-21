@@ -27,8 +27,6 @@ jobs:
 
       - name: Check pytest tests
         run: |
-          cd ./include
-          ln -sf eigen/Eigen Eigen
-          ln -sf eigen/unsupported unsupported
+          conda install eigen
           pip3 install pybind11
           make
