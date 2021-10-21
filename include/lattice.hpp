@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include "utils.h"
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 
 class Lattice { //square lattice
 
