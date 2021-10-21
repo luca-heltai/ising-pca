@@ -1,6 +1,6 @@
 MF = Makefile
 FC = c++
-FFLAGS = -I /Users/riccardorende/Desktop/eigen -w -g -ffast-math -shared -Wl,-undefined,dynamic_lookup -std=c++17 -O3 -fPIC -I/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8 -I/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pybind11/include
+FFLAGS = -I ./include/eigen -w -g -ffast-math -shared -Wl,-undefined,dynamic_lookup -std=c++17 -O3 -fPIC -I/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8 -I/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pybind11/include
 LFLAGS =
 
 EXE = ising.so
