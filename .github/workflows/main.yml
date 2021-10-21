@@ -27,6 +27,6 @@ jobs:
 
       - name: Check pytest tests
         run: |
-          apt install libeigen3-dev
+          sudo apt install libeigen3-dev
           pip3 install pybind11
           make
