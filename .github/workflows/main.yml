@@ -27,5 +27,6 @@ jobs:
 
       - name: Check pytest tests
         run: |
+          brew install eigen
           pip3 install pybind11
           make
